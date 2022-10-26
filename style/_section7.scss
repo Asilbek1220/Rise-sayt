@@ -1,0 +1,48 @@
+.comments {
+    padding: 70px 0px;
+    background-color: rgb(221, 221, 221);
+    .top-tittle {
+        text-align: center;
+        padding: 15px 0px 0px 0px ;
+        a {
+            background: rgba(240, 231, 20, 0.2);
+            padding: 10px 20px;
+            border-radius: 30px;
+            color: #24272E;
+            font-weight: 400;
+            font-size: 16px;
+            margin-top: 20px;
+        }
+        .clients {
+            margin-top: 25px;
+            p {
+                margin-top: 25px;
+                color: #24272E;
+            }
+        }
+    }
+    .comment {
+        .cbl {
+            .commen {
+                width: 568px;
+                padding: 20px 40px;
+                .photo {
+                    margin-bottom: 10px;
+                }
+                .info {
+                    margin-top: 10px;
+                    p {
+                        margin-bottom: 5px;
+                    }
+                    .small {
+                        font-size: 12px;
+                        color: #8791A0;
+                    }
+                }
+                .stars {
+                    color: orange;
+                }
+            }
+        }
+    }
+}

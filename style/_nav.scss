@@ -1,0 +1,192 @@
+.nan {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 27px;
+
+    @media (max-width:1020px) {
+        padding-top: 22px;
+        justify-content: space-around;
+    }
+
+    @media (max-width:810px) {
+        justify-content: space-between;
+    }
+
+    .logo {
+        width: 365px;
+
+        @media (max-width:1200px) {
+            width: 280px;
+        }
+
+        @media (max-width:1140px) {
+            width: 240px;
+        }
+
+        @media (max-width:1020px) {
+            width: 220px;
+            justify-content: space-around;
+        }
+
+        @media (max-width:920px) {
+            width: 140px;
+        }
+
+        @media (max-width:600px) {
+            width: 100px;
+        }
+    }
+ 
+    .logo>img {
+        @media (max-width:1020px) {
+            width: 87px;
+            height: 60px;
+        }
+
+        @media (max-width:920px) {
+            width: 80px;
+        }
+
+        @media (max-width:781px) {
+            width: 70px;
+            height: 50px;
+        }
+
+        @media (max-width:600px) {
+            width: 65px;
+            height: 45px;
+        }
+    }
+
+    .nan-text {
+        width: 915px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: #fff;
+
+        @media (max-width:1140px) {
+            width: 810px;
+        }
+
+        @media (max-width:1020px) {
+            width: 700px;
+        }
+
+        @media (max-width:920px) {
+            width: 600px;
+            font-size: 14px;
+        }
+        @media (max-width:470px) {
+            justify-content: space-evenly;
+        }
+
+        .dropdown {
+            display: none;
+
+            @media (max-width:781px) {
+                display: block;
+            }
+
+            .btn-warning {
+                color: #fff;
+            }
+        }
+
+        .hover a {
+            margin: 0 20px;
+            color: #BAB9B9;
+
+            @media (max-width:1020px) {
+                margin: 0 5px;
+            }
+
+            @media (max-width:920px) {
+                margin: 0 12px;
+            }
+
+            @media (max-width:781px) {
+                display: none;
+            }
+        }
+
+        .button {
+            width: 255px;
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row;
+            align-items: center;
+
+            @media (max-width:1020px) {
+                width: 220px;
+            }
+
+            @media (max-width:920px) {
+                width: 180px;
+            }
+
+            @media (max-width:781px) {
+                margin-left: 180px;
+            }
+
+            @media (max-width:580px) {
+                margin-left: 120px;
+                width: 160px;
+            }
+
+            @media (max-width:480px) {
+                margin-left: 20px;
+            }
+
+            .white {
+                border: 1px solid #fff;
+                padding: 12px 28px;
+                font-weight: 500;
+                font-size: 16px;
+                color: #fff;
+                border-radius: 32px;
+                transition: 1s;
+
+                @media (max-width:1020px) {
+                    padding: 10px 22px;
+                    font-size: 14px;
+                }
+
+                @media (max-width:920px) {
+                    font-size: 12px;
+                }
+
+                @media (max-width:580px) {
+                    font-size: 11px;
+                    padding: 8px 18px;
+                }
+            }
+
+            .yellow {
+                background-color: yellow;
+                padding: 12px 28px;
+                font-weight: 500;
+                font-size: 16px;
+                border-radius: 32px;
+                color: black;
+
+                @media (max-width:1020px) {
+                    padding: 10px 22px;
+                    font-size: 14px;
+                }
+
+                @media (max-width:920px) {
+                    font-size: 12px;
+                }
+
+                @media (max-width:580px) {
+                    font-size: 11px;
+                    padding: 8px 18px;
+                }
+            }
+
+        }
+    }
+}

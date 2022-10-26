@@ -1,0 +1,36 @@
+.mySwiper2 {
+    margin-top: 40px;
+    text-align: center;
+    .commen {
+        background-color: #fff;
+        padding: 25px 40px;
+        border-radius: 10px;
+        max-height: 345px;
+        @media (max-width:1200px) {
+          overflow-x: hidden;  
+        }
+        
+        .comment-text {
+            @media (max-width:1000px) {
+                ::-webkit-scrollbar {
+                    width: 10px;
+                    border-radius: 25px;
+                }
+                
+                ::-webkit-scrollbar-thumb {
+                    background: green;
+                }
+            }
+        }
+    }
+}
+
+
+// ::-webkit-scrollbar {
+//     width: 12px;
+//     border-radius: 35px;
+// }
+
+// ::-webkit-scrollbar-thumb {
+//     background: green;
+// }

@@ -1,0 +1,258 @@
+.footer {
+    padding: 50px 0px;
+    background-color: #101C26;
+    @media (max-width:1400px) {
+        padding: 45px 0px;
+    }
+    @media (max-width:1200px) {
+        padding: 40px 0px;
+    }
+    @media (max-width:1000px) {
+        padding: 35px 0px;
+    }
+    @media (max-width:700px) {
+        padding: 30px 0px;
+    }
+    @media (max-width:500px) {
+        padding: 25px 0px;
+    }
+    .fcontainer {
+        width: 1340px;
+        margin: 0 auto;
+        @media (max-width:1400px)  {
+            width: 1180px;
+        }
+        @media (max-width:1200px) {
+            width: 950px;
+        }
+        @media (max-width:1000px) {
+            width: 750px;
+        } 
+        @media (max-width:800px) {
+            width: 650px;
+        }
+        @media (max-width:700px) {
+            width: 550px;
+        }
+        @media (max-width:600px) {
+            width: 450px;
+        }
+        @media (max-width:500px) {
+            width: 350px;
+        }
+        @media (max-width:400px) {
+            width: 335px;
+        }
+        .end {
+            display: grid;
+            grid-template-columns: auto auto;
+            padding: 50px 0px 30px 0px;
+            border-bottom: 1px solid #fff;
+            @media (max-width:1400px) {
+                padding: 40px 0px 25px 0px;
+            }
+            @media (max-width:1200px) {
+                padding: 35px 0px 20px 0px;
+            }
+            @media (max-width:1000px) {
+                padding: 30px 0px 20px 0px;
+            }
+            @media (max-width:700px) {
+                padding: 25px 0px 15px 0px;
+            }
+            @media (max-width:500px) {
+                padding: 20px 0px 10px 0px;
+            }
+            .fll {
+                width: 330px;
+                @media (max-width:1400px) {
+                    width: 300px;
+                }
+                @media (max-width:1200px) {
+                    width: 270px;
+                }
+                @media (max-width:1000px) {
+                    width: 250px;
+                }
+                @media (max-width:700px) {
+                    width: 200px;
+                }
+                @media (max-width:500px) {
+                    width: 100px;
+                } 
+                .logo1 {
+                    img {
+                        @media (max-width:1200px) {
+                            width: 90px;
+                            height: 60px;
+                        }
+                        @media (max-width:1000px) {
+                            width: 80px;
+                            height: 55px;
+                        } 
+                        @media (max-width:700px) {
+                            width: 70px;
+                            height: 50px;
+                        }      
+                        @media (max-width:500px) {
+                            width: 60px;
+                            height: 45px;
+                        } 
+                        }
+                    }
+                .ftx {
+                    margin-top: 30px;
+                    @media (max-width:1200px) {
+                        margin-top: 25px;
+                        font-size: 15px;
+                    }
+                    @media (max-width:1000px) {
+                        margin-top: 20px;
+                        font-size: 14px;
+                    }
+                    @media (max-width:700px) {
+                        margin-top: 15px;
+                        font-size: 12px;
+                    }
+                    @media (max-width:500px) {
+                        margin-top: 10px;
+                        font-size: 11px;
+                    }
+                    color: #fff;
+                }
+                p {
+                    margin-bottom: 0px;
+                }
+                .nonne {
+                    margin: 0px;
+                    display: block;
+                    @media (max-width:700px) {
+                        color: #101C26;
+                    }
+                }
+                .ficon {
+                    width: 120px;
+                    margin-top: 25px;
+                    color: #101C26;
+                    display: flex;
+                    justify-content: space-between;
+                    @media (max-width:700px) {
+                        margin-top: 20px;
+                        width: 100px;
+                    }
+                    @media (max-width:500px) {
+                        margin-top:15px;
+                    }
+                    i {
+                        background-color: yellow;
+                        padding: 8px 10px;
+                        border-radius: 32px;
+                        @media (max-width:1200px) {
+                            padding: 7px 9px;
+                        }
+                        @media (max-width:1000px) {
+                            padding: 6px 8px;
+                        }
+                        @media (max-width:700px) {
+                            padding: 5px 7px;
+                        }
+                        @media (max-width:500px) {
+                            padding: 4px 6px;
+                        }
+                    }
+                }
+            }
+            .flr {
+                color: grey;
+                display: flex;
+                justify-content: space-between;
+                .nonoe {
+                    display: none;
+                }
+                .fbox {
+                    color: grey;
+                    @media (max-width:1200px) {
+                        font-size: 14px;
+                    }
+                    @media (max-width:1000px) {
+                        font-size: 13px;
+                    }
+                    @media (max-width:700px) {
+                        font-size: 12px;
+                    }
+                    @media (max-width:500px) {
+                        font-size: 10px;
+                        margin: 0px 10px;
+                    }
+                    .fp {
+                        margin-top: 20px;
+                        @media (max-width:1200px) {
+                            font-size: 14px;
+                        }
+                        @media (max-width:1000px) {
+                            font-size: 13px;
+                        }
+                        @media (max-width:700px) {
+                            font-size: 12px;
+                        }
+                        @media (max-width:500px) {
+                            font-size: 10px;
+                        }
+                    }
+                   b {
+                        color: #fff;
+                        @media (max-width:1200px) {
+                            font-size: 14px;
+                        }
+                        @media (max-width:1000px) {
+                            font-size: 13px;
+                        }
+                        @media (max-width:700px) {
+                            font-size: 12px;
+                        }
+                        @media (max-width:500px) {
+                            font-size: 10px;
+                        }
+                    }
+                }
+                .location {
+                    margin-top: 20px;
+                    @media (max-width:1000px) {
+                        margin-top: 15px;
+                    }
+                    .bblok1 {
+                        display: flex;
+                        i {
+                            color: yellow;
+                            margin: 10px 20px 0px 0px;
+                            @media (max-width:1200px) {
+                                margin: 8px 16px 0px 0px;
+                            }
+                            @media (max-width:1000px) {
+                                margin: 7px 14px 0px 0px;
+                            }
+                            @media (max-width:500px) {
+                                margin: 6px 12px 0px 0px;
+                            }
+                        }
+                        p {
+                            margin-top: 5px;
+                            @media (max-width:1200px) {
+                              font-size: 15px;  
+                            }
+                            @media (max-width:1000px) {
+                                font-size: 14px;
+                            }
+                             @media (max-width:700px) {
+                                font-size: 12px;
+                             }
+                             @media (max-width:500px) {
+                                font-size: 10px;
+                             }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
